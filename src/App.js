@@ -33,7 +33,7 @@ import {auth, createUserProfileDocument} from './firebase/firebase.utils';
               ...snapShot.data()
             }
           });
-          console.log(this.state);
+         
         });
       } else {
         this.setState({currentUser: userAuth});
